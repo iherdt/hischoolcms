@@ -33,3 +33,5 @@ files
 
 # Emacs
 *~
+.DS_Store
+
