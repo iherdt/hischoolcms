@@ -20,7 +20,7 @@ ENV APP_ID 444c636e
 ENV MASTER_KEY 9QK8pBHZdnoaYvXL
 # ENV DATABASE_URI mongodb://hischoolappdb:eadb905b2fe33a38b664d37b3af47fb2@dokku-mongo-hischoolappdb:27017/hischoolappdb
 
-ENV MAILGUN_API_KEY key-
+ENV MAILGUN_API_KEY key-703c3995d5bfd2c352a0080a1ed65d35
 ENV MAILGUN_DOMAIN hischool.today
 ENV MAILGUN_FROM_ADDRESS 'H!School App <info@hischool.today>'
 ENV MAILGUN_TO_ADDRESS 'dev@hischool.today'
