@@ -232,6 +232,7 @@ Parse.Cloud.define('updateUser', function (req, res) {
     objUser.set('username', data.email);
     objUser.set('email', data.email);
     objUser.set('photo', data.photo);
+    objUser.set('roleName', data.roleName);
 
     if (!data.password) {
       objUser.set('password', data.password);
