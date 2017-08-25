@@ -9,6 +9,7 @@ ADD . /app
 
 ENV SERVER_URL http://hischool.today/1
 ENV PUBLIC_SERVER_URL http://hischool.today/1
+ENV PARSE_MOUNT /1
 ENV APP_NAME hischoolapp
 
 # Generate a ramdom App ID and Master Key here
@@ -18,7 +19,6 @@ ENV APP_NAME hischoolapp
 
 ENV APP_ID 444c636e
 ENV MASTER_KEY 9QK8pBHZdnoaYvXL
-ENV PARSE_MOUNT /1
 # ENV DATABASE_URI mongodb://hischoolappdb:eadb905b2fe33a38b664d37b3af47fb2@dokku-mongo-hischoolappdb:27017/hischoolappdb
 
 ENV MAILGUN_API_KEY key-REPLACE_WITH_YOUR_API_KEY
