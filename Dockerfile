@@ -18,12 +18,13 @@ ENV APP_NAME hischoolapp
 
 ENV APP_ID 444c636e
 ENV MASTER_KEY 9QK8pBHZdnoaYvXL
+ENV PARSE_MOUNT /1
 # ENV DATABASE_URI mongodb://hischoolappdb:eadb905b2fe33a38b664d37b3af47fb2@dokku-mongo-hischoolappdb:27017/hischoolappdb
 
 ENV MAILGUN_API_KEY key-REPLACE_WITH_YOUR_API_KEY
 ENV MAILGUN_DOMAIN hischool.today
 ENV MAILGUN_FROM_ADDRESS 'H!School App <info@hischool.today>'
-ENV MAILGUN_TO_ADDRESS 'dev@hischool.today'
+ENV MAILGUN_TO_ADDRESS 'H!School App <info@hischool.today>'
 
 # Uncomment the line below you want to use New Relic
 # to monitor your web app.
