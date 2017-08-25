@@ -7,8 +7,8 @@ RUN npm install
 
 ADD . /app
 
-ENV SERVER_URL http://hischool.today/parse
-ENV PUBLIC_SERVER_URL http://hischool.today/parse
+ENV SERVER_URL http://hischool.today/1
+ENV PUBLIC_SERVER_URL http://hischool.today/1
 ENV APP_NAME hischoolapp
 
 # Generate a ramdom App ID and Master Key here
