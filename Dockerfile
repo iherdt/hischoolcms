@@ -28,6 +28,7 @@ ENV MAILGUN_TO_ADDRESS 'H!School App <info@hischool.today>'
 
 # Uncomment the line below you want to use New Relic
 # to monitor your web app.
+
 ENV NEW_RELIC_LICENSE_KEY f0ed223f3bea1ac003cdef781c000ae41213500f
 
 CMD [ "npm", "start" ]
