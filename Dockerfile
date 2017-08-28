@@ -18,7 +18,7 @@ ENV APP_NAME hischoolapp
 # It should be the same for both app and cms.
 
 ENV APP_ID 444c636e
-ENV MASTER_KEY 9QK8pBHZdnoaYvXL
+ENV MASTER_KEY key
 # ENV DATABASE_URI mongodb://hischoolappdb:eadb905b2fe33a38b664d37b3af47fb2@dokku-mongo-hischoolappdb:27017/hischoolappdb
 
 ENV MAILGUN_API_KEY key
