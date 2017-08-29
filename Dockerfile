@@ -10,7 +10,7 @@ ADD . /app
 ENV SERVER_URL http://hischool.today/1
 ENV PUBLIC_SERVER_URL http://hischool.today/1
 ENV PARSE_MOUNT /1
-ENV APP_NAME hischool.today
+ENV APP_NAME hischoolapp
 
 # Generate a ramdom App ID and Master Key here
 # http://www.unit-conversion.info/texttools/random-string-generator/
