@@ -1,3 +1,5 @@
+### A location based High School rating app
+
 # parse-server-example
 
 Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
